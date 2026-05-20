@@ -1,0 +1,42 @@
+# Environment variables — NEVER commit these
+.env
+.env.*
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+pip-log.txt
+
+# React Native / Android build outputs
+Game/gameDebugger-main/node_modules/
+Game/gameDebugger-main/android/app/build/
+Game/gameDebugger-main/android/.gradle/
+Game/gameDebugger-main/ios/Pods/
+Game/gameDebugger-main/ios/build/
+Game/gameDebugger-main/.expo/
+
+# Antigravity backup (large, not needed for submission)
+AiSeekhoClean/antigravity_backup/
