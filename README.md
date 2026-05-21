@@ -350,6 +350,8 @@ A key design principle: the system runs end-to-end on **real, live APIs** in pro
 
 ---
 
+## 🔌 Integrations
+
 | Integration | Purpose | Auth Method |
 |---|---|---|
 | **Discord Bot API** | Ingest live community bug reports | Bot token |
